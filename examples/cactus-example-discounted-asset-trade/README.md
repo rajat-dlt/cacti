@@ -296,6 +296,7 @@ Action: Get assets
    },
    ...
 ]
+```
 
 ## How to stop the application and Docker containers
 
@@ -337,7 +338,4 @@ popd
 pushd ../../tools/docker/geth-testnet/
 rm -fr ./data-geth1/geth/
 popd
-
-```
-
 ```
