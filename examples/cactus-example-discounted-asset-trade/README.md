@@ -134,7 +134,7 @@ Alice knows that Acme Corp. provides digital certificates. She asks Acme Corp. t
      vim ./etc/cactus/usersetting.yaml
      ```
 
-2. Launch discounted-asset-trade and validators from local `docker-compose.yml` (use separate console for that, docker-compose will block your prompt):
+1. Launch discounted-asset-trade and validators from local `docker-compose.yml` (use separate console for that, docker-compose will block your prompt):
 
    ```
    docker-compose build && docker-compose up
